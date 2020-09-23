@@ -188,13 +188,12 @@ nav {
 
 .activities-grid-item {
   height: 40rem;
-  padding: 5rem;
+  padding: 3rem;
   color: #fafafa;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
   border-radius: 1rem;
   background-image: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%);
 }
@@ -296,10 +295,6 @@ nav {
 .contact .title-heading h1 {
   margin-bottom: 5rem;
 }
-/* 
-.contact .container {
-  width: 65rem;
-} */
 
 .flex-wrapper {
   display: flex;
@@ -535,17 +530,25 @@ footer {
   }
 
   .btn-wrapper {
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
     text-align: center;
   }
 
   .contact-info {
     margin-left: 0;
+    background-color: #ffd9e6;
+    flex: initial;
+    padding: 0 3rem;
   }
 
   .contact-info h3 {
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
+
+  .form-wrapper {
+    flex: initial;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
